@@ -21,7 +21,7 @@ class Transformaciones:
         '''
 
         for i in range(len(path)):
-            if i == 26:
+            if i == 68:
                 platform = path[i]
 
         return platform
@@ -143,13 +143,11 @@ class Transformaciones:
 
 
         df_final.drop(['description'], axis='columns', inplace=True)
+        
+        csv = f"{plataforma}.csv"
 
         df_final.to_csv(plataforma+'.csv')
-
-
-        csv = f"{plataforma}.csv"
-        print(csv)
-
+        
         return csv
 
 
