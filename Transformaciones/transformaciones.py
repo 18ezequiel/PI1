@@ -161,8 +161,8 @@ class Transformaciones:
         # COMANDO PARA MOVER LA DATA A LA CARPETA DATASETS
         #######################################################################
 
-        command1 = "cd /home/ezequiell/Escritorio/PI1_DETA"
-        command2 = f"mv {csv} /home/ezequiell/Escritorio/PI1_DETA/Transformaciones/Datasets" 
+        command1 = "cd /home/ezequiell/Escritorio/PI1_DETA/PI1"
+        command2 = f"mv {csv} /home/ezequiell/Escritorio/PI1_DETA/PI1/Transformaciones/Datasets" 
         
         os.system(command1)
         os.system(command2)
