@@ -1,0 +1,4 @@
+deta
+pandas
+python-multipart
+fastapi
