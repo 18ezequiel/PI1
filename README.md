@@ -1,6 +1,8 @@
 # PI1
-Proyecto individual 1
 
+Proyecto Individual 1
+
+![imagem-de-capa-1](https://user-images.githubusercontent.com/107936664/214114856-cb6dce45-1c30-46ca-8703-da492c6a4ef9.png)
 
 
   Este proyecto tiene como fin el montar una api, mediante Fastapi, con una serie de funciones.
